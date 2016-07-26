@@ -12,7 +12,7 @@ public class MybasketApplication {
 	 * 启动项目打开h2数据库
 	 * @return
 	 */
-	@Bean
+	/*@Bean
 	Server h2Server() {
 		Server server = new Server();
 		try {
@@ -22,7 +22,7 @@ public class MybasketApplication {
 			e.printStackTrace();
 		}
 		return server;
-	}
+	}*/
 	
 	public static void main(String[] args) {
 		SpringApplication.run(MybasketApplication.class, args);
