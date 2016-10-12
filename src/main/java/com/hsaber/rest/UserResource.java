@@ -9,11 +9,12 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hsaber.domain.User;
+import com.hsaber.domain.SysUser;
 import com.hsaber.rest.util.PaginationUtil;
 import com.hsaber.service.UserService;
 
@@ -31,8 +32,8 @@ public class UserResource {
 	 * @throws URISyntaxException
 	 */
 	@RequestMapping(value="/api/users",method=RequestMethod.GET)
-	public ResponseEntity<List<User>> findAll(Pageable pageable) throws URISyntaxException{
-		Page<User> page=userService.findAll(pageable);
+	public ResponseEntity<List<SysUser>> findAll(Pageable pageable) throws URISyntaxException{
+		Page<SysUser> page=userService.findAll(pageable);
 		HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(page, "/api/users");
 		return new ResponseEntity<>(page.getContent(), headers, HttpStatus.OK);
 	}
@@ -44,7 +45,7 @@ public class UserResource {
 	 * @return
 	 */
 	@RequestMapping(value="/api/login",method=RequestMethod.POST)
-	public ResponseEntity<User> login(User user){
+	public ResponseEntity<SysUser> login(SysUser user){
 		boolean flag=userService.login(user.getUsername(),user.getPassword());
 		return null;
 	}

@@ -11,8 +11,7 @@ import java.util.Date;
 
 /**
  * Utility class for handling pagination.
- *
- * <p>
+ * * <p>
  * Pagination uses the same principles as the <a href="https://developer.github.com/v3/#pagination">Github API</a>,
  * and follow <a href="http://tools.ietf.org/html/rfc5988">RFC 5988 (Link header)</a>.
  */
