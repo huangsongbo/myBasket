@@ -10,6 +10,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 /**
  * 用户
  * @author huangsongbo
@@ -27,6 +29,7 @@ public class SysUser extends BasicEntity implements Serializable{
 	
 	/*密码*/
 	@Column(name="password",length=200,nullable=false)
+	@JsonIgnore
 	private String password;
 	
 	/*昵称*/

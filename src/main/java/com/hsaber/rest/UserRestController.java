@@ -19,7 +19,7 @@ import com.hsaber.rest.util.PaginationUtil;
 import com.hsaber.service.UserService;
 
 @RestController
-public class UserResource {
+public class UserRestController {
 
 	@Autowired
 	private UserService userService;

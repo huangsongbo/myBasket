@@ -501,3 +501,526 @@ Using default security password: c63d5997-782f-40e4-97ef-85cd3de95df7
 2016-10-12 15:51:27.003  INFO 8176 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
 2016-10-12 15:51:27.075  INFO 8176 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
 2016-10-12 15:51:27.080  INFO 8176 --- [main] com.hsaber.MybasketApplication           : Started MybasketApplication in 10.067 seconds (JVM running for 10.475)
+2016-10-12 16:51:24.182  INFO 7012 --- [main] com.hsaber.MybasketApplication           : Starting MybasketApplication on WSDNN7QVH8TT8KU with PID 7012 (E:\mybasket\target\classes started by huangsongbo in E:\mybasket)
+2016-10-12 16:51:24.190  INFO 7012 --- [main] com.hsaber.MybasketApplication           : No active profile set, falling back to default profiles: default
+2016-10-12 16:51:24.234  INFO 7012 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Wed Oct 12 16:51:24 CST 2016]; root of context hierarchy
+2016-10-12 16:51:25.567  INFO 7012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db4f4820] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-10-12 16:51:25.945  INFO 7012 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-10-12 16:51:25.957  INFO 7012 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-10-12 16:51:25.958  INFO 7012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-10-12 16:51:26.066  INFO 7012 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-10-12 16:51:26.066  INFO 7012 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1835 ms
+2016-10-12 16:51:26.378  INFO 7012 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-10-12 16:51:26.379  INFO 7012 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-10-12 16:51:26.379  INFO 7012 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-10-12 16:51:26.379  INFO 7012 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-10-12 16:51:26.380  INFO 7012 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-10-12 16:51:26.381  INFO 7012 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-10-12 16:51:26.618  INFO 7012 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 39eb8a52-b3d7-43eb-a703-5b60be3cf390
+
+2016-10-12 16:51:26.662  INFO 7012 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-10-12 16:51:26.662  INFO 7012 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-10-12 16:51:26.662  INFO 7012 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-10-12 16:51:26.662  INFO 7012 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-10-12 16:51:26.662  INFO 7012 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-10-12 16:51:26.726  INFO 7012 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38627dec, org.springframework.security.web.context.SecurityContextPersistenceFilter@512f68ae, org.springframework.security.web.header.HeaderWriterFilter@59a8f54b, org.springframework.security.web.authentication.logout.LogoutFilter@5f097b11, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3b49f288, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e6d17d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24bb7eb9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30f4a9f1, org.springframework.security.web.session.SessionManagementFilter@201a2dc2, org.springframework.security.web.access.ExceptionTranslationFilter@e837381, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45327941]
+2016-10-12 16:51:26.907  INFO 7012 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-12 16:51:26.916  INFO 7012 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-12 16:51:26.978  INFO 7012 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-10-12 16:51:26.980  INFO 7012 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-10-12 16:51:26.981  INFO 7012 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-10-12 16:51:27.202  INFO 7012 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-12 16:51:27.623  INFO 7012 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 16:51:27.741  INFO 7012 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-10-12 16:51:27.960  INFO 7012 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-10-12 16:51:27.960  INFO 7012 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-10-12 16:51:27.962  INFO 7012 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-10-12 16:51:27.965  INFO 7012 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: sys_authority
+2016-10-12 16:51:27.985  INFO 7012 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user
+2016-10-12 16:51:27.985  INFO 7012 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [password, create_time, mobile, nickname, id, is_delete, username]
+2016-10-12 16:51:27.985  INFO 7012 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-12 16:51:27.986  INFO 7012 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_51bvuyvihefoh4kp5syh2jpi4, primary]
+2016-10-12 16:51:27.987  INFO 7012 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: sys_user_authority
+2016-10-12 16:51:27.988  INFO 7012 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: sys_authority
+2016-10-12 16:51:27.989  INFO 7012 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: sys_user_authority
+2016-10-12 16:51:27.990  INFO 7012 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: sys_authority
+2016-10-12 16:51:27.991  INFO 7012 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: sys_user_authority
+2016-10-12 16:51:32.666  INFO 7012 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-10-12 16:51:33.112  INFO 7012 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Wed Oct 12 16:51:24 CST 2016]; root of context hierarchy
+2016-10-12 16:51:33.203  INFO 7012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.hsaber.domain.SysUser>> com.hsaber.rest.UserResource.findAll(org.springframework.data.domain.Pageable) throws java.net.URISyntaxException
+2016-10-12 16:51:33.204  INFO 7012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.hsaber.domain.SysUser> com.hsaber.rest.UserResource.login(com.hsaber.domain.SysUser)
+2016-10-12 16:51:33.206  INFO 7012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-10-12 16:51:33.206  INFO 7012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-10-12 16:51:33.237  INFO 7012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 16:51:33.237  INFO 7012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 16:51:33.295  INFO 7012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 16:51:33.673  INFO 7012 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-10-12 16:51:33.780  INFO 7012 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-10-12 16:51:33.784  INFO 7012 --- [main] com.hsaber.MybasketApplication           : Started MybasketApplication in 9.828 seconds (JVM running for 10.304)
+2016-10-25 14:28:00.013  INFO 8844 --- [main] com.hsaber.MybasketApplication           : Starting MybasketApplication on WSDNN7QVH8TT8KU with PID 8844 (E:\mybasket\target\classes started by huangsongbo in E:\mybasket)
+2016-10-25 14:28:00.050  INFO 8844 --- [main] com.hsaber.MybasketApplication           : No active profile set, falling back to default profiles: default
+2016-10-25 14:28:00.110  INFO 8844 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 14:28:00 CST 2016]; root of context hierarchy
+2016-10-25 14:28:01.884  INFO 8844 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae0e26a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-10-25 14:28:02.501  INFO 8844 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-10-25 14:28:02.516  INFO 8844 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-10-25 14:28:02.517  INFO 8844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-10-25 14:28:02.653  INFO 8844 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-10-25 14:28:02.654  INFO 8844 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2546 ms
+2016-10-25 14:28:02.970  INFO 8844 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-10-25 14:28:02.970  INFO 8844 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-10-25 14:28:02.970  INFO 8844 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-10-25 14:28:02.970  INFO 8844 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-10-25 14:28:02.972  INFO 8844 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-10-25 14:28:02.972  INFO 8844 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-10-25 14:28:03.229  INFO 8844 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 2e5b6c20-096f-4737-8f6f-daf830fe7f89
+
+2016-10-25 14:28:03.282  INFO 8844 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-10-25 14:28:03.282  INFO 8844 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-10-25 14:28:03.282  INFO 8844 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-10-25 14:28:03.282  INFO 8844 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-10-25 14:28:03.283  INFO 8844 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-10-25 14:28:03.356  INFO 8844 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73b5fa49, org.springframework.security.web.context.SecurityContextPersistenceFilter@54759462, org.springframework.security.web.header.HeaderWriterFilter@53dd87c2, org.springframework.security.web.authentication.logout.LogoutFilter@397af0ae, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@74aa91e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c8afda4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41f04946, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ab9d074, org.springframework.security.web.session.SessionManagementFilter@17aed64b, org.springframework.security.web.access.ExceptionTranslationFilter@253e427c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c81f341]
+2016-10-25 14:28:03.562  INFO 8844 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 14:28:03.576  INFO 8844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 14:28:03.664  INFO 8844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-10-25 14:28:03.666  INFO 8844 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-10-25 14:28:03.668  INFO 8844 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-10-25 14:28:03.885  INFO 8844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 14:28:04.269  INFO 8844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-25 14:28:04.415  INFO 8844 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 14:28:04.691  INFO 8844 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-10-25 14:28:04.691  INFO 8844 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-10-25 14:28:04.692  INFO 8844 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-10-25 14:28:04.770  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_authority
+2016-10-25 14:28:04.770  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [create_time, name, id, is_delete]
+2016-10-25 14:28:04.770  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 14:28:04.771  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_nwj602y8xtbwasdtvcvcn4j8s, primary]
+2016-10-25 14:28:04.807  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user
+2016-10-25 14:28:04.807  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [password, create_time, mobile, nickname, id, is_delete, username]
+2016-10-25 14:28:04.807  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 14:28:04.807  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_51bvuyvihefoh4kp5syh2jpi4, primary]
+2016-10-25 14:28:04.817  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user_authority
+2016-10-25 14:28:04.817  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [user_id, authority_id]
+2016-10-25 14:28:04.817  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 14:28:04.818  INFO 8844 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 14:28:04.818  INFO 8844 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-10-25 14:28:05.345  INFO 8844 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 14:28:00 CST 2016]; root of context hierarchy
+2016-10-25 14:28:05.446  INFO 8844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.hsaber.domain.SysUser>> com.hsaber.rest.UserResource.findAll(org.springframework.data.domain.Pageable) throws java.net.URISyntaxException
+2016-10-25 14:28:05.448  INFO 8844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.hsaber.domain.SysUser> com.hsaber.rest.UserResource.login(com.hsaber.domain.SysUser)
+2016-10-25 14:28:05.450  INFO 8844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-10-25 14:28:05.451  INFO 8844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-10-25 14:28:05.494  INFO 8844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 14:28:05.494  INFO 8844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 14:28:05.546  INFO 8844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 14:28:05.894  INFO 8844 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-10-25 14:28:05.969 ERROR 8844 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:351) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:763) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:474) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:986) [tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147) [tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:239) [tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:194) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:151) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:293) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:141) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) [spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at com.hsaber.MybasketApplication.main(MybasketApplication.java:28) [classes/:na]
+
+2016-10-25 14:28:05.971 ERROR 8844 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:239) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:194) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:151) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:293) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:141) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) [spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at com.hsaber.MybasketApplication.main(MybasketApplication.java:28) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_60]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_60]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:351) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:763) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:474) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:986) ~[tomcat-embed-core-8.0.36.jar:8.0.36]
+	... 14 common frames omitted
+
+2016-10-25 14:28:05.983  INFO 8844 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2016-10-25 14:28:06.009 ERROR 8844 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat servlet container
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:165) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:293) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:141) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) ~[spring-context-4.2.7.RELEASE.jar:4.2.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174) [spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	at com.hsaber.MybasketApplication.main(MybasketApplication.java:28) [classes/:na]
+Caused by: java.lang.IllegalStateException: Tomcat connector in failed state
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:159) ~[spring-boot-1.3.6.RELEASE.jar:1.3.6.RELEASE]
+	... 10 common frames omitted
+
+2016-10-25 14:28:06.015  INFO 8844 --- [main] .b.l.ClasspathLoggingApplicationListener : Application failed to start with classpath: [file:/E:/mybasket/target/classes/, file:/E:/mybasket/target/test-classes/, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.3.6.RELEASE/spring-boot-starter-aop-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter/1.3.6.RELEASE/spring-boot-starter-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot/1.3.6.RELEASE/spring-boot-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.6.RELEASE/spring-boot-autoconfigure-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.3.6.RELEASE/spring-boot-starter-logging-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar, file:/C:/Users/Administrator/.m2/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar, file:/C:/Users/Administrator/.m2/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar, file:/C:/Users/Administrator/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.jar, file:/C:/Users/Administrator/.m2/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-aop/4.2.7.RELEASE/spring-aop-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.3.6.RELEASE/spring-boot-starter-data-jpa-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.3.6.RELEASE/spring-boot-starter-jdbc-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.0.36/tomcat-jdbc-8.0.36.jar, file:/C:/Users/Administrator/.m2/repository/org/apache/tomcat/tomcat-juli/8.0.36/tomcat-juli-8.0.36.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-jdbc/4.2.7.RELEASE/spring-jdbc-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.jar, file:/C:/Users/Administrator/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar, file:/C:/Users/Administrator/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar, file:/C:/Users/Administrator/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar, file:/C:/Users/Administrator/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar, file:/C:/Users/Administrator/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar, file:/C:/Users/Administrator/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar, file:/C:/Users/Administrator/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar, file:/C:/Users/Administrator/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar, file:/C:/Users/Administrator/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar, file:/C:/Users/Administrator/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar, file:/C:/Users/Administrator/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/data/spring-data-jpa/1.9.4.RELEASE/spring-data-jpa-1.9.4.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-orm/4.2.7.RELEASE/spring-orm-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-tx/4.2.7.RELEASE/spring-tx-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar, file:/C:/Users/Administrator/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-aspects/4.2.7.RELEASE/spring-aspects-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-redis/1.3.6.RELEASE/spring-boot-starter-redis-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/data/spring-data-redis/1.6.4.RELEASE/spring-data-redis-1.6.4.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-oxm/4.2.7.RELEASE/spring-oxm-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-context-support/4.2.7.RELEASE/spring-context-support-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/redis/clients/jedis/2.7.3/jedis-2.7.3.jar, file:/C:/Users/Administrator/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-security/1.3.6.RELEASE/spring-boot-starter-security-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-config/4.0.4.RELEASE/spring-security-config-4.0.4.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/security/spring-security-web/4.0.4.RELEASE/spring-security-web-4.0.4.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-expression/4.2.7.RELEASE/spring-expression-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.3.6.RELEASE/spring-boot-starter-web-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-validation/1.3.6.RELEASE/spring-boot-starter-validation-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar, file:/C:/Users/Administrator/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar, file:/C:/Users/Administrator/.m2/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar, file:/C:/Users/Administrator/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.jar, file:/C:/Users/Administrator/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.7/jackson-annotations-2.6.7.jar, file:/C:/Users/Administrator/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-web/4.2.7.RELEASE/spring-web-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-webmvc/4.2.7.RELEASE/spring-webmvc-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/com/h2database/h2/1.4.192/h2-1.4.192.jar, file:/C:/Users/Administrator/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.3.6.RELEASE/spring-boot-starter-tomcat-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.36/tomcat-embed-core-8.0.36.jar, file:/C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.36/tomcat-embed-el-8.0.36.jar, file:/C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.36/tomcat-embed-logging-juli-8.0.36.jar, file:/C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.36/tomcat-embed-websocket-8.0.36.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.3.6.RELEASE/spring-boot-starter-test-1.3.6.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/junit/junit/4.12/junit-4.12.jar, file:/C:/Users/Administrator/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, file:/C:/Users/Administrator/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, file:/C:/Users/Administrator/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/C:/Users/Administrator/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE.jar, file:/C:/Users/Administrator/.m2/repository/org/springframework/spring-test/4.2.7.RELEASE/spring-test-4.2.7.RELEASE.jar]
+2016-10-25 14:30:21.042  INFO 6324 --- [main] com.hsaber.MybasketApplication           : Starting MybasketApplication on WSDNN7QVH8TT8KU with PID 6324 (E:\mybasket\target\classes started by huangsongbo in E:\mybasket)
+2016-10-25 14:30:21.054  INFO 6324 --- [main] com.hsaber.MybasketApplication           : No active profile set, falling back to default profiles: default
+2016-10-25 14:30:21.096  INFO 6324 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 14:30:21 CST 2016]; root of context hierarchy
+2016-10-25 14:30:22.781  INFO 6324 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae588d75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-10-25 14:30:23.221  INFO 6324 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-10-25 14:30:23.234  INFO 6324 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-10-25 14:30:23.235  INFO 6324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-10-25 14:30:23.382  INFO 6324 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-10-25 14:30:23.382  INFO 6324 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2289 ms
+2016-10-25 14:30:23.754  INFO 6324 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-10-25 14:30:23.754  INFO 6324 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-10-25 14:30:23.755  INFO 6324 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-10-25 14:30:23.755  INFO 6324 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-10-25 14:30:23.756  INFO 6324 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-10-25 14:30:23.756  INFO 6324 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-10-25 14:30:24.012  INFO 6324 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: c84c10c4-b4d6-4027-9582-c94db907ac35
+
+2016-10-25 14:30:24.066  INFO 6324 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-10-25 14:30:24.067  INFO 6324 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-10-25 14:30:24.067  INFO 6324 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-10-25 14:30:24.067  INFO 6324 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-10-25 14:30:24.067  INFO 6324 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-10-25 14:30:24.142  INFO 6324 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f2368a1, org.springframework.security.web.context.SecurityContextPersistenceFilter@36349fb6, org.springframework.security.web.header.HeaderWriterFilter@3bfb0f9, org.springframework.security.web.authentication.logout.LogoutFilter@2d318136, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4dcbf0e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cff2fc3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@672025ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a36ad61, org.springframework.security.web.session.SessionManagementFilter@5f20e4b1, org.springframework.security.web.access.ExceptionTranslationFilter@2d92903f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30fe2fb5]
+2016-10-25 14:30:24.363  INFO 6324 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 14:30:24.373  INFO 6324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 14:30:24.443  INFO 6324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-10-25 14:30:24.445  INFO 6324 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-10-25 14:30:24.447  INFO 6324 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-10-25 14:30:24.706  INFO 6324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 14:30:25.118  INFO 6324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-25 14:30:25.259  INFO 6324 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 14:30:25.540  INFO 6324 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-10-25 14:30:25.541  INFO 6324 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-10-25 14:30:25.542  INFO 6324 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-10-25 14:30:25.567  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_authority
+2016-10-25 14:30:25.568  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [create_time, name, id, is_delete]
+2016-10-25 14:30:25.568  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 14:30:25.569  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_nwj602y8xtbwasdtvcvcn4j8s, primary]
+2016-10-25 14:30:25.584  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user
+2016-10-25 14:30:25.585  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [password, create_time, mobile, nickname, id, is_delete, username]
+2016-10-25 14:30:25.585  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 14:30:25.585  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_51bvuyvihefoh4kp5syh2jpi4, primary]
+2016-10-25 14:30:25.598  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user_authority
+2016-10-25 14:30:25.599  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [user_id, authority_id]
+2016-10-25 14:30:25.599  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 14:30:25.600  INFO 6324 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 14:30:25.601  INFO 6324 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-10-25 14:30:26.068  INFO 6324 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 14:30:21 CST 2016]; root of context hierarchy
+2016-10-25 14:30:26.143  INFO 6324 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.hsaber.domain.SysUser>> com.hsaber.rest.UserResource.findAll(org.springframework.data.domain.Pageable) throws java.net.URISyntaxException
+2016-10-25 14:30:26.144  INFO 6324 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.hsaber.domain.SysUser> com.hsaber.rest.UserResource.login(com.hsaber.domain.SysUser)
+2016-10-25 14:30:26.148  INFO 6324 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-10-25 14:30:26.149  INFO 6324 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-10-25 14:30:26.178  INFO 6324 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 14:30:26.178  INFO 6324 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 14:30:26.217  INFO 6324 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 14:30:26.570  INFO 6324 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-10-25 14:30:26.711  INFO 6324 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-10-25 14:30:26.719  INFO 6324 --- [main] com.hsaber.MybasketApplication           : Started MybasketApplication in 5.941 seconds (JVM running for 6.737)
+2016-10-25 14:55:00.446  INFO 9684 --- [main] com.hsaber.MybasketApplication           : Starting MybasketApplication on WSDNN7QVH8TT8KU with PID 9684 (E:\mybasket\target\classes started by huangsongbo in E:\mybasket)
+2016-10-25 14:55:00.459  INFO 9684 --- [main] com.hsaber.MybasketApplication           : No active profile set, falling back to default profiles: default
+2016-10-25 14:55:00.506  INFO 9684 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 14:55:00 CST 2016]; root of context hierarchy
+2016-10-25 14:55:01.894  INFO 9684 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb7b45ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-10-25 14:55:02.337  INFO 9684 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-10-25 14:55:02.355  INFO 9684 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-10-25 14:55:02.356  INFO 9684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-10-25 14:55:02.688  INFO 9684 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-10-25 14:55:02.688  INFO 9684 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2184 ms
+2016-10-25 14:55:03.074  INFO 9684 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-10-25 14:55:03.074  INFO 9684 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-10-25 14:55:03.074  INFO 9684 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-10-25 14:55:03.074  INFO 9684 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-10-25 14:55:03.075  INFO 9684 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-10-25 14:55:03.075  INFO 9684 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-10-25 14:55:03.313  INFO 9684 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: cf1aae9e-0d5f-45fd-8051-3ae4adc31364
+
+2016-10-25 14:55:03.362  INFO 9684 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-10-25 14:55:03.362  INFO 9684 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-10-25 14:55:03.363  INFO 9684 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-10-25 14:55:03.363  INFO 9684 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-10-25 14:55:03.363  INFO 9684 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-10-25 14:55:03.430  INFO 9684 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@1145b3ed, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ff3d0ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@17aed64b, org.springframework.security.web.header.HeaderWriterFilter@253e427c, org.springframework.security.web.csrf.CsrfFilter@5c06875e, org.springframework.security.web.authentication.logout.LogoutFilter@1b6a0053, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54759462, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bc092d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74aa91e2, org.springframework.security.web.session.SessionManagementFilter@10d907cb, org.springframework.security.web.access.ExceptionTranslationFilter@770dd29]
+2016-10-25 14:55:03.707  INFO 9684 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 14:55:03.721  INFO 9684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 14:55:03.788  INFO 9684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-10-25 14:55:03.790  INFO 9684 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-10-25 14:55:03.791  INFO 9684 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-10-25 14:55:03.973  INFO 9684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 14:55:04.339  INFO 9684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-25 14:55:04.457  INFO 9684 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 14:55:04.702  INFO 9684 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-10-25 14:55:04.703  INFO 9684 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-10-25 14:55:04.705  INFO 9684 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-10-25 14:55:04.723  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_authority
+2016-10-25 14:55:04.724  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [create_time, name, id, is_delete]
+2016-10-25 14:55:04.724  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 14:55:04.724  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_nwj602y8xtbwasdtvcvcn4j8s, primary]
+2016-10-25 14:55:04.732  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user
+2016-10-25 14:55:04.733  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [password, create_time, mobile, nickname, id, is_delete, username]
+2016-10-25 14:55:04.733  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 14:55:04.733  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_51bvuyvihefoh4kp5syh2jpi4, primary]
+2016-10-25 14:55:04.741  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user_authority
+2016-10-25 14:55:04.742  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [user_id, authority_id]
+2016-10-25 14:55:04.742  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 14:55:04.742  INFO 9684 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 14:55:04.742  INFO 9684 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-10-25 14:55:05.155  INFO 9684 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 14:55:00 CST 2016]; root of context hierarchy
+2016-10-25 14:55:05.248  INFO 9684 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.hsaber.domain.SysUser>> com.hsaber.rest.UserResource.findAll(org.springframework.data.domain.Pageable) throws java.net.URISyntaxException
+2016-10-25 14:55:05.249  INFO 9684 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.hsaber.domain.SysUser> com.hsaber.rest.UserResource.login(com.hsaber.domain.SysUser)
+2016-10-25 14:55:05.250  INFO 9684 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-10-25 14:55:05.251  INFO 9684 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-10-25 14:55:05.285  INFO 9684 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 14:55:05.285  INFO 9684 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 14:55:05.326  INFO 9684 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 14:55:05.686  INFO 9684 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-10-25 14:55:05.757  INFO 9684 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-10-25 14:55:05.764  INFO 9684 --- [main] com.hsaber.MybasketApplication           : Started MybasketApplication in 5.538 seconds (JVM running for 6.092)
+2016-10-25 14:59:40.847  INFO 9684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-10-25 14:59:40.847  INFO 9684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-10-25 14:59:40.865  INFO 9684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2016-10-25 14:59:40.903  WARN 9684 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2016-10-25 15:06:25.271  INFO 4968 --- [main] com.hsaber.MybasketApplication           : Starting MybasketApplication on WSDNN7QVH8TT8KU with PID 4968 (E:\mybasket\target\classes started by huangsongbo in E:\mybasket)
+2016-10-25 15:06:25.282  INFO 4968 --- [main] com.hsaber.MybasketApplication           : No active profile set, falling back to default profiles: default
+2016-10-25 15:06:25.321  INFO 4968 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 15:06:25 CST 2016]; root of context hierarchy
+2016-10-25 15:06:26.662  INFO 4968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b933d0b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-10-25 15:06:27.037  INFO 4968 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-10-25 15:06:27.049  INFO 4968 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-10-25 15:06:27.050  INFO 4968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-10-25 15:06:27.168  INFO 4968 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-10-25 15:06:27.169  INFO 4968 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1849 ms
+2016-10-25 15:06:27.534  INFO 4968 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-10-25 15:06:27.535  INFO 4968 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-10-25 15:06:27.535  INFO 4968 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-10-25 15:06:27.535  INFO 4968 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-10-25 15:06:27.536  INFO 4968 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-10-25 15:06:27.536  INFO 4968 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-10-25 15:06:27.767  INFO 4968 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: b7709654-9272-4557-8b76-cb5a69c49739
+
+2016-10-25 15:06:27.811  INFO 4968 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-10-25 15:06:27.811  INFO 4968 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-10-25 15:06:27.811  INFO 4968 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-10-25 15:06:27.811  INFO 4968 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-10-25 15:06:27.811  INFO 4968 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-10-25 15:06:27.863  INFO 4968 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@3f896fbc, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36f697b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eb167c7, org.springframework.security.web.header.HeaderWriterFilter@59a79d6c, org.springframework.security.web.csrf.CsrfFilter@7a4834, org.springframework.security.web.authentication.logout.LogoutFilter@74aa91e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@109f12f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c6593f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52c8af0a, org.springframework.security.web.session.SessionManagementFilter@5423fbb3, org.springframework.security.web.access.ExceptionTranslationFilter@5bce14c]
+2016-10-25 15:06:28.103  INFO 4968 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 15:06:28.113  INFO 4968 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 15:06:28.175  INFO 4968 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-10-25 15:06:28.176  INFO 4968 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-10-25 15:06:28.178  INFO 4968 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-10-25 15:06:28.380  INFO 4968 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 15:06:28.787  INFO 4968 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-25 15:06:28.936  INFO 4968 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 15:06:29.152  INFO 4968 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-10-25 15:06:29.152  INFO 4968 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-10-25 15:06:29.153  INFO 4968 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-10-25 15:06:29.173  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_authority
+2016-10-25 15:06:29.173  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [create_time, name, id, is_delete]
+2016-10-25 15:06:29.174  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 15:06:29.174  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_nwj602y8xtbwasdtvcvcn4j8s, primary]
+2016-10-25 15:06:29.182  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user
+2016-10-25 15:06:29.182  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [password, create_time, mobile, nickname, id, is_delete, username]
+2016-10-25 15:06:29.183  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 15:06:29.183  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_51bvuyvihefoh4kp5syh2jpi4, primary]
+2016-10-25 15:06:29.193  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user_authority
+2016-10-25 15:06:29.194  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [user_id, authority_id]
+2016-10-25 15:06:29.194  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 15:06:29.194  INFO 4968 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 15:06:29.194  INFO 4968 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-10-25 15:06:29.582  INFO 4968 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 15:06:25 CST 2016]; root of context hierarchy
+2016-10-25 15:06:29.647  INFO 4968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.hsaber.domain.SysUser>> com.hsaber.rest.UserResource.findAll(org.springframework.data.domain.Pageable) throws java.net.URISyntaxException
+2016-10-25 15:06:29.648  INFO 4968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.hsaber.domain.SysUser> com.hsaber.rest.UserResource.login(com.hsaber.domain.SysUser)
+2016-10-25 15:06:29.649  INFO 4968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-10-25 15:06:29.650  INFO 4968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-10-25 15:06:29.676  INFO 4968 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 15:06:29.676  INFO 4968 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 15:06:29.712  INFO 4968 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 15:06:30.051  INFO 4968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-10-25 15:06:30.128  INFO 4968 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-10-25 15:06:30.132  INFO 4968 --- [main] com.hsaber.MybasketApplication           : Started MybasketApplication in 5.086 seconds (JVM running for 5.657)
+2016-10-25 15:06:34.581  INFO 4968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-10-25 15:06:34.581  INFO 4968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-10-25 15:06:34.598  INFO 4968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2016-10-25 15:26:11.785  INFO 10964 --- [main] com.hsaber.MybasketApplication           : Starting MybasketApplication on WSDNN7QVH8TT8KU with PID 10964 (E:\mybasket\target\classes started by huangsongbo in E:\mybasket)
+2016-10-25 15:26:11.796  INFO 10964 --- [main] com.hsaber.MybasketApplication           : No active profile set, falling back to default profiles: default
+2016-10-25 15:26:11.846  INFO 10964 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 15:26:11 CST 2016]; root of context hierarchy
+2016-10-25 15:26:13.179  INFO 10964 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$45719f38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-10-25 15:26:13.578  INFO 10964 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-10-25 15:26:13.590  INFO 10964 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-10-25 15:26:13.592  INFO 10964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-10-25 15:26:13.712  INFO 10964 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-10-25 15:26:13.712  INFO 10964 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1873 ms
+2016-10-25 15:26:14.036  INFO 10964 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-10-25 15:26:14.037  INFO 10964 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-10-25 15:26:14.037  INFO 10964 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-10-25 15:26:14.037  INFO 10964 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-10-25 15:26:14.039  INFO 10964 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-10-25 15:26:14.039  INFO 10964 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-10-25 15:26:14.279  INFO 10964 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 4830478a-8893-4e51-a26f-6652082415a5
+
+2016-10-25 15:26:14.319  INFO 10964 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-10-25 15:26:14.319  INFO 10964 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-10-25 15:26:14.319  INFO 10964 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-10-25 15:26:14.319  INFO 10964 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-10-25 15:26:14.319  INFO 10964 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-10-25 15:26:14.372  INFO 10964 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@13f31aba, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5eb690e2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b9bccb2, org.springframework.security.web.header.HeaderWriterFilter@50878f30, org.springframework.security.web.csrf.CsrfFilter@364264fb, org.springframework.security.web.authentication.logout.LogoutFilter@3aaa879e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@83ad2a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7513ed51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cda526c, org.springframework.security.web.session.SessionManagementFilter@2ee99274, org.springframework.security.web.access.ExceptionTranslationFilter@55d84760]
+2016-10-25 15:26:14.542  INFO 10964 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 15:26:14.552  INFO 10964 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 15:26:14.614  INFO 10964 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-10-25 15:26:14.615  INFO 10964 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-10-25 15:26:14.616  INFO 10964 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-10-25 15:26:14.835  INFO 10964 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 15:26:15.210  INFO 10964 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-25 15:26:15.351  INFO 10964 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 15:26:15.589  INFO 10964 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-10-25 15:26:15.589  INFO 10964 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-10-25 15:26:15.589  INFO 10964 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-10-25 15:26:15.611  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_authority
+2016-10-25 15:26:15.612  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [create_time, name, id, is_delete]
+2016-10-25 15:26:15.612  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 15:26:15.612  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_nwj602y8xtbwasdtvcvcn4j8s, primary]
+2016-10-25 15:26:15.619  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user
+2016-10-25 15:26:15.619  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [password, create_time, mobile, nickname, id, is_delete, username]
+2016-10-25 15:26:15.619  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 15:26:15.620  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_51bvuyvihefoh4kp5syh2jpi4, primary]
+2016-10-25 15:26:15.627  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user_authority
+2016-10-25 15:26:15.628  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [user_id, authority_id]
+2016-10-25 15:26:15.628  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 15:26:15.628  INFO 10964 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 15:26:15.629  INFO 10964 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-10-25 15:26:16.035  INFO 10964 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 15:26:11 CST 2016]; root of context hierarchy
+2016-10-25 15:26:16.102  INFO 10964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.hsaber.domain.SysUser>> com.hsaber.rest.UserResource.findAll(org.springframework.data.domain.Pageable) throws java.net.URISyntaxException
+2016-10-25 15:26:16.103  INFO 10964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.hsaber.domain.SysUser> com.hsaber.rest.UserResource.login(com.hsaber.domain.SysUser)
+2016-10-25 15:26:16.105  INFO 10964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-10-25 15:26:16.106  INFO 10964 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-10-25 15:26:16.136  INFO 10964 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 15:26:16.137  INFO 10964 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 15:26:16.178  INFO 10964 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 15:26:16.517  INFO 10964 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-10-25 15:26:16.604  INFO 10964 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-10-25 15:26:16.611  INFO 10964 --- [main] com.hsaber.MybasketApplication           : Started MybasketApplication in 5.047 seconds (JVM running for 5.518)
+2016-10-25 15:26:26.053  INFO 10964 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-10-25 15:26:26.053  INFO 10964 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-10-25 15:26:26.074  INFO 10964 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2016-10-25 15:27:35.581  INFO 10408 --- [main] com.hsaber.MybasketApplication           : Starting MybasketApplication on WSDNN7QVH8TT8KU with PID 10408 (E:\mybasket\target\classes started by huangsongbo in E:\mybasket)
+2016-10-25 15:27:35.596  INFO 10408 --- [main] com.hsaber.MybasketApplication           : No active profile set, falling back to default profiles: default
+2016-10-25 15:27:35.639  INFO 10408 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 15:27:35 CST 2016]; root of context hierarchy
+2016-10-25 15:27:37.113  INFO 10408 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a24dca6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-10-25 15:27:37.544  INFO 10408 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-10-25 15:27:37.557  INFO 10408 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-10-25 15:27:37.558  INFO 10408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2016-10-25 15:27:37.749  INFO 10408 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-10-25 15:27:37.749  INFO 10408 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2113 ms
+2016-10-25 15:27:38.082  INFO 10408 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-10-25 15:27:38.083  INFO 10408 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-10-25 15:27:38.083  INFO 10408 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-10-25 15:27:38.084  INFO 10408 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-10-25 15:27:38.085  INFO 10408 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-10-25 15:27:38.085  INFO 10408 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-10-25 15:27:38.324  INFO 10408 --- [localhost-startStop-1] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 1ff14623-b042-429f-80ef-94bddb9fe1fc
+
+2016-10-25 15:27:38.365  INFO 10408 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2016-10-25 15:27:38.365  INFO 10408 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2016-10-25 15:27:38.365  INFO 10408 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/images/**'], []
+2016-10-25 15:27:38.365  INFO 10408 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/favicon.ico'], []
+2016-10-25 15:27:38.366  INFO 10408 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/error'], []
+2016-10-25 15:27:38.421  INFO 10408 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@79910ed9, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58706564, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b7db47e, org.springframework.security.web.header.HeaderWriterFilter@228f428b, org.springframework.security.web.csrf.CsrfFilter@3563fd24, org.springframework.security.web.authentication.logout.LogoutFilter@69e79e41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d5ebe7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16a36fc3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4559e674, org.springframework.security.web.session.SessionManagementFilter@5c7ec79b, org.springframework.security.web.access.ExceptionTranslationFilter@180dc1e6]
+2016-10-25 15:27:38.589  INFO 10408 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-25 15:27:38.600  INFO 10408 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-25 15:27:38.660  INFO 10408 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-10-25 15:27:38.663  INFO 10408 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-10-25 15:27:38.664  INFO 10408 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-10-25 15:27:38.845  INFO 10408 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-25 15:27:39.223  INFO 10408 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-25 15:27:39.339  INFO 10408 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-10-25 15:27:39.568  INFO 10408 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-10-25 15:27:39.568  INFO 10408 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-10-25 15:27:39.570  INFO 10408 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-10-25 15:27:39.594  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_authority
+2016-10-25 15:27:39.594  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [create_time, name, id, is_delete]
+2016-10-25 15:27:39.594  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 15:27:39.595  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_nwj602y8xtbwasdtvcvcn4j8s, primary]
+2016-10-25 15:27:39.603  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user
+2016-10-25 15:27:39.604  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [password, create_time, mobile, nickname, id, is_delete, username]
+2016-10-25 15:27:39.604  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-25 15:27:39.604  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [uk_51bvuyvihefoh4kp5syh2jpi4, primary]
+2016-10-25 15:27:39.613  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: mybasket.sys_user_authority
+2016-10-25 15:27:39.614  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [user_id, authority_id]
+2016-10-25 15:27:39.614  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 15:27:39.614  INFO 10408 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [fk_94fh98rr0h1uop7g3vkd4bnlu, fk_k6723b0ubk2b4mad9ipgdm1p]
+2016-10-25 15:27:39.615  INFO 10408 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-10-25 15:27:40.004  INFO 10408 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27912e3: startup date [Tue Oct 25 15:27:35 CST 2016]; root of context hierarchy
+2016-10-25 15:27:40.068  INFO 10408 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.hsaber.domain.SysUser>> com.hsaber.rest.UserResource.findAll(org.springframework.data.domain.Pageable) throws java.net.URISyntaxException
+2016-10-25 15:27:40.069  INFO 10408 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.hsaber.domain.SysUser> com.hsaber.rest.UserResource.login(com.hsaber.domain.SysUser)
+2016-10-25 15:27:40.070  INFO 10408 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-10-25 15:27:40.071  INFO 10408 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-10-25 15:27:40.097  INFO 10408 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 15:27:40.097  INFO 10408 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 15:27:40.134  INFO 10408 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-25 15:27:40.479  INFO 10408 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-10-25 15:27:40.557  INFO 10408 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-10-25 15:27:40.563  INFO 10408 --- [main] com.hsaber.MybasketApplication           : Started MybasketApplication in 5.213 seconds (JVM running for 5.688)
+2016-10-25 15:28:56.997  INFO 10408 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-10-25 15:28:56.997  INFO 10408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-10-25 15:28:57.017  INFO 10408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms

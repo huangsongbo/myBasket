@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Table;
 
 @Entity
@@ -17,6 +19,7 @@ public class SysAuthority extends BasicEntity implements Serializable{
 	}
 	
 	@Column(name="name", length=100,nullable=false,unique=true)
+	@Enumerated(EnumType.STRING)
 	private AuthorityName name;
 
 	public AuthorityName getName() {

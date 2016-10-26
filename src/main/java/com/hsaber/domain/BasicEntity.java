@@ -8,6 +8,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 @MappedSuperclass
 public class BasicEntity implements Serializable{
 
@@ -21,6 +23,7 @@ public class BasicEntity implements Serializable{
 	private Short isDelete;
 	
 	@Column(name="create_time",nullable=false)
+	@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+08:00")
 	private Date createTime;
 
 	public Long getId() {
